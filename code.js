@@ -2,6 +2,10 @@ function fib(n) {
     let a = Array(n+1);
 
     function fibHelper(n) {
+        if (n < 0) {
+            return undefined;
+        }
+
         if (n == 0) {
             a[0] = 0;
             return 0; 
