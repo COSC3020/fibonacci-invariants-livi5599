@@ -7,10 +7,6 @@ function fib(n) {
 }
 
 function fibHelper(n, arr) {
-    if (n < 0) {
-        return undefined;
-    }
-
     if (n == 0) {
         arr[0] = 0;
         return 0; 
