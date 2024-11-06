@@ -28,7 +28,7 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
-Invariant: For each recursive call to fibHelper with a given n, all elements in the array a at indicies less than n will be defined if they are still needed for the computation of arr[n].
+Invariant: For each recursive call to fibHelper with a given n, all elements in the array a at indicies less than n will be defined with the correct Fibonacci value if they are still needed for the computation of arr[n].
 
 For the code, I recieved help from ChatGPT and Megan.  ChatGPT gave me the idea of defining an array with n undefined elements and the idea of using a helper function, and Megan gave me the idea of defining the first element of the array in the fib function since when I was testing it, the base case of 0 would never be reached.
 
